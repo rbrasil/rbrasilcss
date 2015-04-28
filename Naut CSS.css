@@ -17,266 +17,6 @@
 		-------------------------------------------------------------------------- */
 
 
-	/* FLAIRS DAS BANDEIRAS DOS ESTADOS */
-	
-	.flair { 
-	    border: none; 
-	    top:20px; 
-	    padding:0px; 
-	    background: url(%%bandeiras-estados%%) no-repeat;   
-	    text-indent: 20px; 
-	    min-width: 16px; 
-	    white-space:nowrap; 
-	    height: 11px;
-	    
-	} 
-	#container li {
-	    background: url(%%bandeiras-estados%%) no-repeat top left;
-	    
-	} 
-
-.flair-AC{ background-position: 0 0; } 
-.flair-AL{ background-position: 0 -12px; } 
-.flair-AP{ background-position: 0 -24px; } 
-.flair-AM{ background-position: 0 -36px; } 
-.flair-BA{ background-position: 0 -48px; } 
-.flair-CE{ background-position: 0 -60px; } 
-.flair-DF{ background-position: 0 -72px; } 
-.flair-ES{ background-position: 0 -84px; } 
-.flair-GO{ background-position: 0 -96px; } 
-.flair-MA{ background-position: 0 -108px; } 
-.flair-MT{ background-position: 0 -120px; } 
-.flair-MS{ background-position: 0 -132px; } 
-.flair-MG{ background-position: 0 -144px; } 
-.flair-PA{ background-position: 0 -156px; } 
-.flair-PB{ background-position: 0 -168px; } 
-.flair-PR{ background-position: 0 -180px; } 
-.flair-PE{ background-position: 0 -192px; } 
-.flair-PI{ background-position: 0 -204px; } 
-.flair-RJ{ background-position: 0 -216px; } 
-.flair-RN{ background-position: 0 -228px; } 
-.flair-RS{ background-position: 0 -240px; } 
-.flair-RO{ background-position: 0 -252px; } 
-.flair-RR{ background-position: 0 -264px; } 
-.flair-SC{ background-position: 0 -276px; } 
-.flair-SP{ background-position: 0 -289px; } 
-.flair-SE{ background-position: 0 -301px; } 
-.flair-TO{ background-position: 0 -313px; } 
-.flair-world{ background-position: 0 -325px; } 
-
-/* FLAIRS DOS LINKS */
-
-.linkflair-Politica .linkflairlabel, .side a[href*='#fz'], .side a[href*='#pi']
-{
-    background-color:#333;
-    color:#FFF;
-}
-.linkflair-noticias .linkflairlabel, .side a[href*='#zy'], .side a[href*='zz'],
-.linkflair-humor .linkflairlabel, .side a[href*='#ii'], .side a[href*='#ij']
-{
-    background-color:#000C6B;
-    color:#FFF;
-}
-
-
-
-.linkflair-Noticia-Alter .linkflairlabel
-{
-    background-color:#f5f5f5;
-    color:#555;
-    border:1px solid #ddd;
-    border-radius:2px;
-    font: normal xx-small verdana,arial,helvetica,sans-serif;
-    font-weight: normal;
-    white-space: nowrap;
-}
-
-.linkflair-Eleicao .linkflairlabel, .side a[href*='#ez'], .side a[href*='#hh']
-{
-    background-color:#025a23;
-    color:#fff;
-}
-.linkflair-HEA .linkflairlabel, .side a[href*='#yz'], .side a[href*='#aa'],
-.linkflair-PQC .linkflairlabel, .side a[href*='#ay'], .side a[href*='#by'],
-.linkflair-EMS .linkflairlabel, .side a[href*='#cy'], .side a[href*='#dy']
-{
-    background-color:#24abd4;
-    color:#fff;
-}
-
-.linkflair-discussao .linkflairlabel, .side a[href*='#jj'], .side a[href*='#kk'],
-.linkflair-batepapo .linkflairlabel, .side a[href*='#ll'], .side a[href*='#mm']
-{
-    background-color:#F03D0C;
-    color:#fff;
-}
-
-.side a[href*='#jy'], .side a[href*='http://brasil.reddit.com/']
-{
-    background-color:#000;
-    color:#fff;
-}
-
-/* FAVOR NÃO MODIFICAR ESTA FLAIR */
-.linkflair-comentario .linkflairlabel
-{
-    background-color:#f5f5f5;
-    color:#555;
-    border:1px solid #ddd;
-    border-radius:2px;
-    font: normal xx-small verdana,arial,helvetica,sans-serif;
-    font-weight: normal;
-    white-space: nowrap;
-}
-	
-/* FILTROS DE LINKFLAIR */
-
-/* TODOS */
-html:lang(jy) .link.linkflair-Eleicao, html:lang(jy) .link.linkflair-noticias, html:lang(jy) .link.linkflair-Politica, html:lang(jy) .link.linkflair-HEA, html:lang(jy) .link.linkflair-EMS, html:lang(jy) .link.linkflair-PQC, html:lang(jy) .link.linkflair-batepapo, html:lang(jy) .link.linkflair-discussao, html:lang(jy) .link.linkflair-Noticia-Alter, html:lang(jy) .link.linkflair-humor {
-    display: none;
-} 
-/* eleicoes */
-html:lang(ez) .link.linkflair-Eleicao {
-    display: none    }
-
-
-html:lang(hh) .link:not(.linkflair-Eleicao){
-    display: none    }
-
-/* politica */
-
-html:lang(fz) .link.linkflair-Politica {
-    display: none    }
-			
-html:lang(pi) .link:not(.linkflair-Politica){
-    display: none    }
-
-/* noticia */
-
-html:lang(zy) .link.linkflair-noticias {
-    display: none    }
-
-html:lang(zz) .link:not(.linkflair-noticias){
-    display: none    }
-
-/* humor */
-
-html:lang(ii) .link.linkflair-humor {
-    display: none;
-}
-
-html:lang(ij) .link:not(.linkflair-humor){
-    display: none;
-}
-
-/* hea */
-
-html:lang(yz) .link.linkflair-HEA {
-    display: none;    }
-
-html:lang(aa) .link:not(.linkflair-HEA){
-    display: none;    }
-
-/* pqc */
-
-html:lang(ay) .link.linkflair-PQC {
-    display: none;    }
-
-html:lang(by) .link:not(.linkflair-PQC){
-    display: none;    }
-	
-/* ems */
-
-html:lang(cy) .link.linkflair-EMS {
-    display: none;    }
-
-html:lang(dy) .link:not(.linkflair-EMS){
-    display: none;    }
-
-/* discussao */
-
-html:lang(jj) .link.linkflair-discussao {display: none;}
-html:lang(kk) .link:not(.linkflair-discussao) { display:none; }
-
-/* batepapo */
-
-html:lang(ll) .link.linkflair-batepapo {display: none;}
-html:lang(mm) .link:not(.linkflair-batepapo) {display:none;}
-
-
-/*BOTÕES DE FILTROS DE LINKFLAIR*/
-.side a[href*='#ez'], a[href*='#hh'], 
-a[href*='#fz'], a[href*='#pi'],
-a[href*='#yz'], a[href*='#aa'],
-a[href*='#ay'], a[href*='#by'],
-a[href*='#cy'], a[href*='#dy'],
-a[href*='#zy'], a[href*='#zz'],
-a[href*='#ii'], a[href*='#ij'], a[href*='#jy'], 
-a[href*='http://brasil.reddit.com/'], 
-a[href*='#jj'], a[href*='#kk'],
-a[href*='#ll'], a[href*='#mm'] { 
-    display: inline-block;
-    position: relative;
-    margin-top:5px;
-    border: 1px solid white;
-    border-radius: 5%;
-    font-size: 100%;
-    padding: 3px;
-     /*  font-weight: bold;*/
-   }
-
-.side a[href*='#ez']:hover, a[href*='#hh']:hover, 
-a[href*='#fz']:hover, a[href*='#pi']:hover,
-a[href*='#yz']:hover, a[href*='#aa']:hover,
-a[href*='#ay']:hover, a[href*='#by']:hover,
-a[href*='#cy']:hover, a[href*='#dy']:hover , 
-a[href*='#zy']:hover, a[href*='#zz']:hover, 
-a[href='http://brasil.reddit.com/']:hover, 
-a[href*='#jy']:hover, a[href*='#ii']:hover, a[href*='#ij'],
-a[href*='#jj']:hover, a[href*='#kk']:hover, 
-a[href*='#ll']:hover, a[href*='#mm']:hover {
-    color: #fff!important;
-    border: 1px solid black!important;
-    text-decoration: none!important;
-}
-.res-nightmode .side a[href*='#ez'], a[href*='#hh'], 
-a[href*='#fz'], a[href*='#pi'],
-a[href*='#yz'], a[href*='#aa'],
-a[href*='#ay'], a[href*='#by'],
-a[href*='#cy'], a[href*='#dy'],
-a[href*='#zy'], a[href*='#zz'],
-a[href*='#ii'], a[href*='#jy'], a[href*='#ij'],
-a[href*='http://brasil.reddit.com/'], 
-a[href*='#jj'], a[href*='#kk'],
-a[href*='#ll'], a[href*='#mm'] { 
-    display: inline-block;
-    position: relative;
-    margin-top:5px;
-    border: 1px solid white;
-    border-radius: 5%;
-    font-size: 100%;
-    padding: 3px;
-     /*  font-weight: bold;*/
-   }
-
-.res-nightmode .side a[href*='#ez']:hover, a[href*='#hh']:hover, 
-a[href*='#fz']:hover, a[href*='#pi']:hover,
-a[href*='#yz']:hover, a[href*='#aa']:hover,
-a[href*='#ay']:hover, a[href*='#by']:hover,
-a[href*='#cy']:hover, a[href*='#dy']:hover , 
-a[href*='#zy']:hover, a[href*='#zz']:hover, 
-a[href='http://brasil.reddit.com/']:hover, 
-a[href*='#jy']:hover, a[href*='#ii']:hover, a[href*='#ij'],
-a[href*='#jj']:hover, a[href*='#kk']:hover, 
-a[href*='#ll']:hover, a[href*='#mm']:hover {
-    color: #fff!important;
-    border: 1px solid black!important;
-    text-decoration: none!important;
-}
-.md a[href='http://www.reddit.com/message/compose?to=%2Fr%2Fbrasil'] {
-    font-style: italic;
-}
-
 		/* Custom browser CSS */
 		:focus {outline: 0px;}
 			
@@ -2769,6 +2509,265 @@ body:not(.search-page) #search input[type="submit"] {
 
 	/* --------------------------- */
 
+	/* FLAIRS DAS BANDEIRAS DOS ESTADOS */
+	
+	.flair { 
+	    border: none; 
+	    top:20px; 
+	    padding:0px; 
+	    background: url(%%bandeiras-estados%%) no-repeat;   
+	    text-indent: 20px; 
+	    min-width: 16px; 
+	    white-space:nowrap; 
+	    height: 11px;
+	    
+	} 
+	#container li {
+	    background: url(%%bandeiras-estados%%) no-repeat top left;
+	    
+	} 
+
+.flair-AC{ background-position: 0 0; } 
+.flair-AL{ background-position: 0 -12px; } 
+.flair-AP{ background-position: 0 -24px; } 
+.flair-AM{ background-position: 0 -36px; } 
+.flair-BA{ background-position: 0 -48px; } 
+.flair-CE{ background-position: 0 -60px; } 
+.flair-DF{ background-position: 0 -72px; } 
+.flair-ES{ background-position: 0 -84px; } 
+.flair-GO{ background-position: 0 -96px; } 
+.flair-MA{ background-position: 0 -108px; } 
+.flair-MT{ background-position: 0 -120px; } 
+.flair-MS{ background-position: 0 -132px; } 
+.flair-MG{ background-position: 0 -144px; } 
+.flair-PA{ background-position: 0 -156px; } 
+.flair-PB{ background-position: 0 -168px; } 
+.flair-PR{ background-position: 0 -180px; } 
+.flair-PE{ background-position: 0 -192px; } 
+.flair-PI{ background-position: 0 -204px; } 
+.flair-RJ{ background-position: 0 -216px; } 
+.flair-RN{ background-position: 0 -228px; } 
+.flair-RS{ background-position: 0 -240px; } 
+.flair-RO{ background-position: 0 -252px; } 
+.flair-RR{ background-position: 0 -264px; } 
+.flair-SC{ background-position: 0 -276px; } 
+.flair-SP{ background-position: 0 -289px; } 
+.flair-SE{ background-position: 0 -301px; } 
+.flair-TO{ background-position: 0 -313px; } 
+.flair-world{ background-position: 0 -325px; } 
+
+/* FLAIRS DOS LINKS */
+
+.linkflair-Politica .linkflairlabel, .side a[href*='#fz'], .side a[href*='#pi']
+{
+    background-color:#333;
+    color:#FFF;
+}
+.linkflair-noticias .linkflairlabel, .side a[href*='#zy'], .side a[href*='zz'],
+.linkflair-humor .linkflairlabel, .side a[href*='#ii'], .side a[href*='#ij']
+{
+    background-color:#000C6B;
+    color:#FFF;
+}
+
+
+
+.linkflair-Noticia-Alter .linkflairlabel
+{
+    background-color:#f5f5f5;
+    color:#555;
+    border:1px solid #ddd;
+    border-radius:2px;
+    font: normal xx-small verdana,arial,helvetica,sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.linkflair-Eleicao .linkflairlabel, .side a[href*='#ez'], .side a[href*='#hh']
+{
+    background-color:#025a23;
+    color:#fff;
+}
+.linkflair-HEA .linkflairlabel, .side a[href*='#yz'], .side a[href*='#aa'],
+.linkflair-PQC .linkflairlabel, .side a[href*='#ay'], .side a[href*='#by'],
+.linkflair-EMS .linkflairlabel, .side a[href*='#cy'], .side a[href*='#dy']
+{
+    background-color:#24abd4;
+    color:#fff;
+}
+
+.linkflair-discussao .linkflairlabel, .side a[href*='#jj'], .side a[href*='#kk'],
+.linkflair-batepapo .linkflairlabel, .side a[href*='#ll'], .side a[href*='#mm']
+{
+    background-color:#F03D0C;
+    color:#fff;
+}
+
+.side a[href*='#jy'], .side a[href*='http://brasil.reddit.com/']
+{
+    background-color:#000;
+    color:#fff;
+}
+
+/* FAVOR NÃO MODIFICAR ESTA FLAIR */
+.linkflair-comentario .linkflairlabel
+{
+    background-color:#f5f5f5;
+    color:#555;
+    border:1px solid #ddd;
+    border-radius:2px;
+    font: normal xx-small verdana,arial,helvetica,sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+}
+	
+/* FILTROS DE LINKFLAIR */
+
+/* TODOS */
+html:lang(jy) .link.linkflair-Eleicao, html:lang(jy) .link.linkflair-noticias, html:lang(jy) .link.linkflair-Politica, html:lang(jy) .link.linkflair-HEA, html:lang(jy) .link.linkflair-EMS, html:lang(jy) .link.linkflair-PQC, html:lang(jy) .link.linkflair-batepapo, html:lang(jy) .link.linkflair-discussao, html:lang(jy) .link.linkflair-Noticia-Alter, html:lang(jy) .link.linkflair-humor {
+    display: none;
+} 
+/* eleicoes */
+html:lang(ez) .link.linkflair-Eleicao {
+    display: none    }
+
+
+html:lang(hh) .link:not(.linkflair-Eleicao){
+    display: none    }
+
+/* politica */
+
+html:lang(fz) .link.linkflair-Politica {
+    display: none    }
+			
+html:lang(pi) .link:not(.linkflair-Politica){
+    display: none    }
+
+/* noticia */
+
+html:lang(zy) .link.linkflair-noticias {
+    display: none    }
+
+html:lang(zz) .link:not(.linkflair-noticias){
+    display: none    }
+
+/* humor */
+
+html:lang(ii) .link.linkflair-humor {
+    display: none;
+}
+
+html:lang(ij) .link:not(.linkflair-humor){
+    display: none;
+}
+
+/* hea */
+
+html:lang(yz) .link.linkflair-HEA {
+    display: none;    }
+
+html:lang(aa) .link:not(.linkflair-HEA){
+    display: none;    }
+
+/* pqc */
+
+html:lang(ay) .link.linkflair-PQC {
+    display: none;    }
+
+html:lang(by) .link:not(.linkflair-PQC){
+    display: none;    }
+	
+/* ems */
+
+html:lang(cy) .link.linkflair-EMS {
+    display: none;    }
+
+html:lang(dy) .link:not(.linkflair-EMS){
+    display: none;    }
+
+/* discussao */
+
+html:lang(jj) .link.linkflair-discussao {display: none;}
+html:lang(kk) .link:not(.linkflair-discussao) { display:none; }
+
+/* batepapo */
+
+html:lang(ll) .link.linkflair-batepapo {display: none;}
+html:lang(mm) .link:not(.linkflair-batepapo) {display:none;}
+
+
+/*BOTÕES DE FILTROS DE LINKFLAIR*/
+.side a[href*='#ez'], a[href*='#hh'], 
+a[href*='#fz'], a[href*='#pi'],
+a[href*='#yz'], a[href*='#aa'],
+a[href*='#ay'], a[href*='#by'],
+a[href*='#cy'], a[href*='#dy'],
+a[href*='#zy'], a[href*='#zz'],
+a[href*='#ii'], a[href*='#ij'], a[href*='#jy'], 
+a[href*='http://brasil.reddit.com/'], 
+a[href*='#jj'], a[href*='#kk'],
+a[href*='#ll'], a[href*='#mm'] { 
+    display: inline-block;
+    position: relative;
+    margin-top:5px;
+    border: 1px solid white;
+    border-radius: 5%;
+    font-size: 100%;
+    padding: 3px;
+     /*  font-weight: bold;*/
+   }
+
+.side a[href*='#ez']:hover, a[href*='#hh']:hover, 
+a[href*='#fz']:hover, a[href*='#pi']:hover,
+a[href*='#yz']:hover, a[href*='#aa']:hover,
+a[href*='#ay']:hover, a[href*='#by']:hover,
+a[href*='#cy']:hover, a[href*='#dy']:hover , 
+a[href*='#zy']:hover, a[href*='#zz']:hover, 
+a[href='http://brasil.reddit.com/']:hover, 
+a[href*='#jy']:hover, a[href*='#ii']:hover, a[href*='#ij'],
+a[href*='#jj']:hover, a[href*='#kk']:hover, 
+a[href*='#ll']:hover, a[href*='#mm']:hover {
+    color: #fff!important;
+    border: 1px solid black!important;
+    text-decoration: none!important;
+}
+.res-nightmode .side a[href*='#ez'], a[href*='#hh'], 
+a[href*='#fz'], a[href*='#pi'],
+a[href*='#yz'], a[href*='#aa'],
+a[href*='#ay'], a[href*='#by'],
+a[href*='#cy'], a[href*='#dy'],
+a[href*='#zy'], a[href*='#zz'],
+a[href*='#ii'], a[href*='#jy'], a[href*='#ij'],
+a[href*='http://brasil.reddit.com/'], 
+a[href*='#jj'], a[href*='#kk'],
+a[href*='#ll'], a[href*='#mm'] { 
+    display: inline-block;
+    position: relative;
+    margin-top:5px;
+    border: 1px solid white;
+    border-radius: 5%;
+    font-size: 100%;
+    padding: 3px;
+     /*  font-weight: bold;*/
+   }
+
+.res-nightmode .side a[href*='#ez']:hover, a[href*='#hh']:hover, 
+a[href*='#fz']:hover, a[href*='#pi']:hover,
+a[href*='#yz']:hover, a[href*='#aa']:hover,
+a[href*='#ay']:hover, a[href*='#by']:hover,
+a[href*='#cy']:hover, a[href*='#dy']:hover , 
+a[href*='#zy']:hover, a[href*='#zz']:hover, 
+a[href='http://brasil.reddit.com/']:hover, 
+a[href*='#jy']:hover, a[href*='#ii']:hover, a[href*='#ij'],
+a[href*='#jj']:hover, a[href*='#kk']:hover, 
+a[href*='#ll']:hover, a[href*='#mm']:hover {
+    color: #fff!important;
+    border: 1px solid black!important;
+    text-decoration: none!important;
+}
+.md a[href='http://www.reddit.com/message/compose?to=%2Fr%2Fbrasil'] {
+    font-style: italic;
+}
 	
 
 	/* --------------------------- */
